@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" role="img" aria-label="Languages">
+  <title>Languages</title>
+  <defs>
+    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c98a2b" stop-opacity="0.9"/><stop offset="1" stop-color="#c98a2b" stop-opacity="0"/></linearGradient>
+    <filter id="g" x="-400%" y="-400%" width="900%" height="900%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <path d="M14 18 l9 10 l-9 10 l-9 -10 Z" fill="#c98a2b"/>
+  <circle cx="14" cy="28" r="6" fill="#ffb454" filter="url(#g)"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/></circle>
+  <text x="38" y="37" font-family="'Noto Sans','DejaVu Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="3.5" fill="#c98a2b" id="t">LANGUAGES</text>
+  <rect x="250" y="27" width="942" height="2" fill="url(#l)"/>
+  <circle r="2.4" cy="28" fill="#ffb454">
+    <animate attributeName="cx" values="250;1100" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
